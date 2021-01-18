@@ -3,9 +3,9 @@
 This back-end Node application was developed to demo how to use Parse Cloud Functions with a MongoDB database.<br>
 This application was deployed to a Heroku server.<br>
 This application is one part of complete full-stack demo.<br>
-The front-end client code for this demo can here found here: TBA<br>
+The front-end client code for this demo can here found here: https://github.com/baberarjumand/songs-lib-parse-frontend<br>
 
-A demo of the full-stack in action can be viewed here: TBA<br>
+A demo of the full-stack in action can be viewed here: https://songs-lib-crud-demo.web.app<br>
 
 To test this Node application, make sure these environment variables are set:<br>
 ```
