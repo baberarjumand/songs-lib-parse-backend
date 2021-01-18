@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "bfef4673-1760-41b0-9e19-72d94118d57e",
+		"name": "songs-lib-backend-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello World",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Parse-Application-Id",
+						"value": "songsLib01",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{songsLibBaseUrl}}/functions/hello",
+					"host": [
+						"{{songsLibBaseUrl}}"
+					],
+					"path": [
+						"functions",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Songs",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Parse-Application-Id",
+						"value": "songsLib01",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{songsLibBaseUrl}}/functions/getAllSongs",
+					"host": [
+						"{{songsLibBaseUrl}}"
+					],
+					"path": [
+						"functions",
+						"getAllSongs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a Song",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Parse-Application-Id",
+						"value": "songsLib01",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "{{songsLibBaseUrl}}/functions/createSong",
+					"host": [
+						"{{songsLibBaseUrl}}"
+					],
+					"path": [
+						"functions",
+						"createSong"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Song",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Parse-Application-Id",
+						"type": "text",
+						"value": "songsLib01"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{songsLibBaseUrl}}/functions/deleteSong",
+					"host": [
+						"{{songsLibBaseUrl}}"
+					],
+					"path": [
+						"functions",
+						"deleteSong"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
