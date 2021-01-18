@@ -20,10 +20,10 @@ For local development, declare these variables in a file called <code>.env</code
 On a deployed server, I used Heroku.<br>
 Declare environment variables using the Heroku Console: <code>Settings</code> -> <code>Config Vars</code>.
 
-<hr>
-<hr>
-<hr>
+<hr><hr><hr>
+
 The notes below are the notes attached in the README of the [parse-server-example](https://github.com/parse-community/parse-server-example) repo.
+
 <hr>
 <hr>
 <hr>
