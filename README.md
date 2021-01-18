@@ -15,8 +15,10 @@ MONGODB_URI
 SERVER_URL
 ```
 
-For local development, declare these variables in a file called <code>.env</code> in the root directory.<br>
-On a deployed server, I used Heroku. Declare environment variables using the Heroku Console: <code>Settings</code> -> <code>Config Vars</code>.
+For local development, declare these variables in a file called <code>.env</code> in the root directory.
+
+On a deployed server, I used Heroku.<br>
+Declare environment variables using the Heroku Console: <code>Settings</code> -> <code>Config Vars</code>.
 
 <br><br>
 
