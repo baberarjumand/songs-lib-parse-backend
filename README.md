@@ -1,3 +1,31 @@
+# Songs Library Basic CRUD Demo with Parse Cloud Functions and MongoDB
+
+This back-end Node application was developed to demo how to use Parse Cloud Functions with a MongoDB database.<br>
+This application was deployed to a Heroku server.<br>
+This application is one part of complete full-stack demo.<br>
+The front-end client code for this demo can here found here: TBA<br>
+
+A demo of the full-stack in action can be viewed here: TBA<br>
+
+To test this Node application, make sure these environment variables are set:<br>
+```
+APP_ID
+MASTER_KEY
+MONGODB_URI
+SERVER_URL
+```
+
+For local development, declare these variables in a file called <code>.env</code> in the root directory.<br>
+On a deployed server, I used Heroku. Declare environment variables using the Heroku Console: <code>Settings</code> -> <code>Config Vars</code>.
+
+<br><br>
+
+The notes below are the notes attached in the README of the [parse-server-example](https://github.com/parse-community/parse-server-example) repo.
+
+<hr>
+<hr>
+<hr>
+
 # parse-server-example
 
 [![Join The Conversation](https://img.shields.io/discourse/https/community.parseplatform.org/topics.svg)](https://community.parseplatform.org/c/parse-server)
