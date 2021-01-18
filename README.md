@@ -1,11 +1,14 @@
-# Songs Library Basic CRUD Demo with Parse Cloud Functions and MongoDB
+# Basic CRUD Demo with Parse Cloud Functions and MongoDB
 
 This back-end Node application was developed to demo how to use Parse Cloud Functions with a MongoDB database.<br>
 This application was deployed to a Heroku server.<br>
-This application is one part of complete full-stack demo.<br>
-The front-end client code for this demo can here found here: https://github.com/baberarjumand/songs-lib-parse-frontend<br>
+This application is one part of the complete full-stack demo.
 
-A demo of the full-stack in action can be viewed here: https://songs-lib-crud-demo.web.app<br>
+The front-end client code for this demo can here found here:<br>
+https://github.com/baberarjumand/songs-lib-parse-frontend
+
+A demo of the full-stack in action can be viewed here:<br>
+https://songs-lib-crud-demo.web.app
 
 To test this Node application, make sure these environment variables are set:<br>
 ```
